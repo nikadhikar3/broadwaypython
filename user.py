@@ -1,6 +1,16 @@
 import sqlite3
 
-
+# git config --global user.name "Nikhil Adhikari"
+# git config --global user.email "nikadhikari3@gmail.com"
+# create account on github
+# create new repository in github
+# git init
+# git add .
+# git commit -m "Your message"
+# copy paste from git hub repository that you created 
+# git remote add origin https://github.com/nikadhikar3/broadwaypython.git
+# git branch -M main
+# git push -u Origin main
 
 # The function attempts to create a connection to a 
 # SQLite database file named "user.sqlite3"
