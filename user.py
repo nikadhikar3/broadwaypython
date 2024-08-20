@@ -15,6 +15,7 @@ import csv
 # git push -u Origin main
 
 # Git new branch creation := git checkout -b Branchname
+# Git new branch switching := git checkout Branchname
 
 # The function attempts to create a connection to a 
 # SQLite database file named "user.sqlite3"
