@@ -1,4 +1,5 @@
 import sqlite3
+import csv
 
 # git config --global user.name "Nikhil Adhikari"
 # git config --global user.email "nikadhikari3@gmail.com"
@@ -12,6 +13,8 @@ import sqlite3
 # git remote add origin https://github.com/nikadhikar3/broadwaypython.git
 # git branch -M main
 # git push -u Origin main
+
+# Git new branch creation := git checkout -b Branchname
 
 # The function attempts to create a connection to a 
 # SQLite database file named "user.sqlite3"
@@ -85,7 +88,7 @@ def create_table(conn):
 #     list[tuple]: A list of tuples containing the user data.
 
    
-import csv
+
 def read_csv():
     users = []
     with open("sample_users.csv","r") as f:
